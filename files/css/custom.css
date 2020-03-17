@@ -62,7 +62,7 @@ body {
 }
 
 .lock-form {
-    padding-left: 20%;
+    padding-left: initial;
 }
 
 .lock-form h4 {
@@ -79,7 +79,7 @@ body {
 .lock-form .form-group .form-control {
     background-color: #303a48;
     border: none;
-    width: 220px;
+    width: -webkit-fill-available;
     height: 40px;
     color: #697687;
     border-radius: 0;
@@ -107,8 +107,8 @@ body {
 }
 
 .lock-form .form-actions .btn-success {
-    background-color: #e76070 !important;
-    width: 220px;
+    background-color: #0080FF !important;
+    width: -webkit-fill-available;
     font-weight: 600;
     padding: 10px;
     border: none;
@@ -116,7 +116,7 @@ body {
 }
 
 .lock-form .form-actions .btn-success:hover {
-    background-color: #d75464 !important;
+    background-color: rgb(3, 37, 71) !important;
 }
 
 .lock-bottom {
